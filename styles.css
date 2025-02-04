@@ -9,6 +9,7 @@ body{
     /*any screen resolution from 0-500px wide*/
     body {
         background-color: lightcoral;
+        font-size: 130%;
     }
 }
 @media screen and (max-width: 400px){
