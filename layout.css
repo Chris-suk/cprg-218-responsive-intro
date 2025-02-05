@@ -17,6 +17,10 @@ header{
 main {
     grid-area: main;
 }
+#desktop {
+    background-color: darkgray;
+    padding: 1.4rem;
+}
 nav {
     grid-area: nav;
     background-color: burlywood;
@@ -32,6 +36,10 @@ footer {
         "nav"
         "footer"
         ;
+        grid-template-columns: 1fr;
     }
     /*display:block;*/
+    #desktop {
+        display: none;
+    }
 }
